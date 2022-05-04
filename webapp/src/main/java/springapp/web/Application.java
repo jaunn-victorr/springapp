@@ -1,11 +1,11 @@
-package.springapp.web;
+package springapp.web;
 
-import org.springfamework.boot.SpringApplication;
-import org.springframework.boot.autoconfigureSpringBootAplication;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootAplication;
 
 @SpringBootApplication
 public class Application {
     public static void main(String[] args) {
-        SpringAPplication.run(Application.class, args);
+        SpringApplication.run(Application.class, args);
     }
 }
