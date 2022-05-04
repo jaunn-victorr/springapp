@@ -4,10 +4,10 @@ plugins {
     id 'war'
 }
 repositories {
-    mavencentral()
+    mavenCentral()
 
 }
  dependencies {
-     implementaion 'org.springframework.boot:spring-boot-starter-web'
-     prividedRuntime 'org.apache.tomcat.embed:tomcat-embed-jasper'
+     implementation 'org.springframework.boot:spring-boot-starter-web'
+     providedRuntime 'org.apache.tomcat.embed:tomcat-embed-jasper'
  }
