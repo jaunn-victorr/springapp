@@ -1,0 +1,13 @@
+plugins {
+    id 'org.springframework.boot' version '2.6.3'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'war'
+}
+repositories {
+    mavencentral()
+
+}
+ dependencies {
+     implementaion 'org.springframework.boot:spring-boot-starter-web'
+     prividedRuntime 'org.apache.tomcat.embed:tomcat-embed-jasper'
+ }
